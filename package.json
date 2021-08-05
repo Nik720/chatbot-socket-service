@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cluster.js"
+  },
+  "author": "Nikunj Beladiya <nikunj.beladiya@tarento.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@project-sunbird/logger": "0.0.11",
+    "@socket.io/sticky": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.22.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.0.0",
+    "socket.io-redis": "^6.0.1"
+  }
+}
