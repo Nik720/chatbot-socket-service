@@ -1,0 +1,3 @@
+- Clone the repository
+- Install the dependencies
+`npm run start` to start the server
